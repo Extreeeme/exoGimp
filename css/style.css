@@ -1,0 +1,80 @@
+@font-face {
+	font-family:'Ma police normale';
+	src:url("../police/SourceSansPro.ttf");
+}
+@font-face {
+	font-family:'Ma police bold';
+	src:url("../police/SourceSansProBold.ttf");
+}
+@font-face {
+	font-family:'Ma police light';
+	src:url("../police/SourceSansProLight.ttf");
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #202020;
+	font-family: 'Ma police light';
+}
+
+#container{
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+	display: flex;
+}
+
+nav{
+	width: 300px;
+	background-color: #2a2a2a;
+	height: 2100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+
+nav img{
+	border: 1px solid transparent;
+	border-radius: 100px;
+	width: 80px;
+	height: 80px;
+}
+
+nav h1{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: white;
+	font-family: 'Ma police bold';
+}
+
+nav p{
+	color: grey;
+}
+ul{
+	padding: 0px;
+	text-align: center;
+	font-family: 'Ma police bold';
+}
+
+li{
+	list-style-type: none;
+	height: 90px;
+	border-top: grey 0.25px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+}
+
+#about{
+	border-bottom: grey 0.25px solid;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#photo img{
+	width: 800px;
+	height: 400px;
+}
